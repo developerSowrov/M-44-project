@@ -1,9 +1,12 @@
-import "./App.css";
+// import "./App.css";
+import DaisyNav from "./components/daisynav/DaisyNav";
+import CreatNav from "./components/creatNav/CreatNav";
 
 function App() {
   return (
     <>
-      <h1 className="text-5xl">Hello</h1>
+      <DaisyNav></DaisyNav>
+      <CreatNav></CreatNav>
     </>
   );
 }
